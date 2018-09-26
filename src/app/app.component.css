@@ -1,0 +1,42 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: flex-start;
+    background-color: DodgerBlue;
+    width: 374px;
+    height: 624px;
+    border-radius: 28px;
+    
+  }
+
+  .tile-messagerie{
+    background-color: red;
+    width: 160px;
+    height: 129px;
+    margin: 15px 0 0 16px;
+  }
+
+  .customer-experience{
+    background-color: blue;
+    width: 160px;
+    height: 129px;
+    margin: 15px 0 0 16px;
+  }
+
+  .blog-tile{
+    background-color: green;
+    margin: 15px 0 0 16px;
+    width: 343px;
+    height: 178px;
+    transition: all 0.4s ease-out;
+  }
+
+
+  .cdk-drag-placeholder {
+    opacity: 0;
+  }
+
+  .cdk-drag-animating {
+    transition: all 0.4s ease-out;
+  }
